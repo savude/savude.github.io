@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Reflection 6</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">     
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Basic jQuery</h1>
+                        <span class="meta">Posted by Ellen Savude, on July 29, 2018</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                   <p>
+                        Recent research indicates that jQuery is used on half of all Web sites. There is a good explanation for jQuery’s popularity – it’s extremely simple to use, and for that reason, I implement it on my site. 
+                   </p>
+
+                    <h2 class="section-heading">Why's That? </h2>
+
+                   <p>
+                        jQuery is the "Write Less, Do More" JavaScript library. It is not a programming language, but rather a tool used to make writing common JavaScript tasks more concise. jQuery has the added benefit of being cross-browser compatible, meaning you can be certain the output of your code will render as intended in any modern browser.
+                   </p>
+
+                    <p>
+                            At its core, jQuery is used to connect with HTML elements in the browser via the DOM. The Document Object Model (DOM) is the method by which JavaScript (and jQuery) interact with the HTML in a browser. Each HTML element is considered a node in the DOM – an object that JavaScript can touch. These objects are arranged in a tree structure, with <html> being closer to the root, and each nested element being a branch further along the tree. JavaScript can add, remove, and change any of these elements. It's easy at first to confuse the DOM with the HTML source, but they're different – the page source is exactly what is written in the HTML file. It is static and will not change, and will not be affected by JavaScript. The DOM is dynamic, and can change.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+<!-- Footer -->
+
+  <!-- menu-js -->
+	<script>
+            $('.navicon').on('click', function (e) {
+              e.preventDefault();
+              $(this).toggleClass('navicon--active');
+              $('.toggle').toggleClass('toggle--active');
+            });
+        </script> 
+        <!-- //menu-js --> 
+         <!-- jQuery -->
+         <script src="vendor/jquery/jquery.min.js"></script>
+    
+         <!-- Bootstrap Core JavaScript -->
+         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+     
+         <!-- Contact Form JavaScript -->
+         <script src="js/jqBootstrapValidation.js"></script>
+         <script src="js/contact_me.js"></script>
+     
+         <!-- Theme JavaScript -->
+         <script src="js/clean-blog.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+    </html>
